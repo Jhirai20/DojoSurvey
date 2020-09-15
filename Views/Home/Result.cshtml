@@ -16,11 +16,12 @@
             <div class="card">
                 <img class="card-img-top" src="holder.js/100x180/" alt="">
                 <div class="card-body">
+                  @model DojoSurvey.Models.Survey
                     <h4 class="card-title">Submitted Info</h4>
-                    <p class="card-text">Name: @ViewBag.name</p>
-                    <p class="card-text">Dojo Location: @ViewBag.location</p>
-                    <p class="card-text">Favorite Language: @ViewBag.language</p>
-                    <p class="card-text">Comment: @ViewBag.Comment</p>
+                    <p class="card-text">Name: @Model.Name</p>
+                    <p class="card-text">Dojo Location: @Model.Location</p>
+                    <p class="card-text">Favorite Language: @Model.Language</p>
+                    <p class="card-text">Comment: @Model.Comment</p>
             </div>
             <a href="/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Go Back</a>
       </div>

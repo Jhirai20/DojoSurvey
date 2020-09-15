@@ -1,4 +1,7 @@
+using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using DojoSurvey.Models;
 namespace DojoSurvey
 {
     public class HomeController :Controller
@@ -9,13 +12,9 @@ namespace DojoSurvey
         return View("Index");
     }
     [HttpPost("Submit")]
-    public IActionResult Result(string NameField,string LocationField, string LanguageField, string CommentField)
+    public IActionResult Result(Survey yourSurvey) 
     {
-        ViewBag.name=NameField;
-        ViewBag.location=LocationField;
-        ViewBag.Language=LanguageField;
-        ViewBag.Comment=CommentField;
-        return View("Result");
+        return View(yourSurvey);
     }
 
     }
