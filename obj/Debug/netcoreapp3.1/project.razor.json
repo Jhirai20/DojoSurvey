@@ -14392,6 +14392,11 @@
   "RootNamespace": "DojoSurvey",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\jhira\\Documents\\MEGAsync\\Coding Dojo\\DotNet\\DojoSurvey\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jhira\\Documents\\MEGAsync\\Coding Dojo\\DotNet\\DojoSurvey\\Views\\Home\\Result.cshtml",
       "TargetPath": "Views\\Home\\Result.cshtml",
       "FileKind": "mvc"

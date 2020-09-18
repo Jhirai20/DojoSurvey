@@ -28,3 +28,4 @@ C:\Users\jhira\Documents\MEGAsync\Coding Dojo\DotNet\DojoSurvey\obj\Debug\netcor
 C:\Users\jhira\Documents\MEGAsync\Coding Dojo\DotNet\DojoSurvey\obj\Debug\netcoreapp3.1\DojoSurvey.pdb
 C:\Users\jhira\Documents\MEGAsync\Coding Dojo\DotNet\DojoSurvey\obj\Debug\netcoreapp3.1\DojoSurvey.csproj.CopyComplete
 C:\Users\jhira\Documents\MEGAsync\Coding Dojo\DotNet\DojoSurvey\obj\Debug\netcoreapp3.1\Razor\Views\Home\Result.cshtml.g.cs
+C:\Users\jhira\Documents\MEGAsync\Coding Dojo\DotNet\DojoSurvey\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs

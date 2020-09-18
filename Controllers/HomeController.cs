@@ -12,9 +12,13 @@ namespace DojoSurvey
         return View("Index");
     }
     [HttpPost("Submit")]
-    public IActionResult Result(Survey yourSurvey) 
+    public IActionResult Result(Survey survey) 
     {
-        return View(yourSurvey);
+        if(ModelState.IsValid)
+        {
+        return View(survey);
+        }
+        return View("Index");
     }
 
     }
